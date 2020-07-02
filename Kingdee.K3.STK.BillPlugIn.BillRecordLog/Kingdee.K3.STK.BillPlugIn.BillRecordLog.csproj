@@ -35,6 +35,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Kingdee.BOS.dll</HintPath>
     </Reference>
+    <Reference Include="Kingdee.BOS.App, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Kingdee.BOS.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.BOS.Business.PlugIn, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Kingdee.BOS.Business.PlugIn.dll</HintPath>
+    </Reference>
+    <Reference Include="Kingdee.BOS.BusinessEntity, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Kingdee.BOS.BusinessEntity.dll</HintPath>
+    </Reference>
     <Reference Include="Kingdee.BOS.Contracts, Version=7.5.1507.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Kingdee.BOS.Contracts.dll</HintPath>
@@ -63,6 +75,8 @@
   <ItemGroup>
     <Compile Include="BillRecordLogBillPlugin.cs" />
     <Compile Include="BillRecordLogBillPlugin2.cs" />
+    <Compile Include="BillRecordLogBillPlugin3.cs" />
+    <Compile Include="BillRecordLogControlPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
