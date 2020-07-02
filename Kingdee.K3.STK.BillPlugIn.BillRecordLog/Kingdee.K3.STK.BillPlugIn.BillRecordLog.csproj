@@ -77,6 +77,7 @@
     <Compile Include="BillRecordLogBillPlugin2.cs" />
     <Compile Include="BillRecordLogBillPlugin3.cs" />
     <Compile Include="BillRecordLogControlPlugin.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
