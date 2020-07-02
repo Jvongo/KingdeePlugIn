@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace Kingdee.K3.STK.BillPlugIn.BillRecordLog
 {
+    //热更新
     [Kingdee.BOS.Util.HotUpdate]
     public class BillRecordLogControlPlugin : AbstractOperationServicePlugIn
     {
